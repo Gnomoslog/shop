@@ -1,11 +1,11 @@
-// Переменные
+
 $primary-color: #aaaf5c;
 $primary-hover: #d0da51;
 $background: rgba(0, 0, 0, 0.9);
 $transition-speed: 0.3s;
 $breakpoint-mobile: 768px;
 
-// Миксины
+
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ $breakpoint-mobile: 768px;
     transition: $property $transition-speed ease;
 }
 
-// Стили для мобильного меню
+
 .mobile-menu-toggle {
     display: none;
     flex-direction: column;
@@ -105,7 +105,7 @@ $breakpoint-mobile: 768px;
     }
 }
 
-// Overlay для затемнения фона при открытом меню
+
 .menu-overlay {
     display: none;
     position: fixed;
@@ -129,7 +129,7 @@ $breakpoint-mobile: 768px;
     }
 }
 
-// Адаптация существующих стилей
+
 .conter {
     @media (max-width: $breakpoint-mobile) {
         justify-content: space-between;
@@ -143,7 +143,7 @@ $breakpoint-mobile: 768px;
     }
 }
 
-// Анимации
+
 @keyframes slideIn {
     from {
         opacity: 0;
